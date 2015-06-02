@@ -1,0 +1,13 @@
+# Site settings
+title: Maxime Bokobza
+languages: ["en", "fr"]
+exclude_from_localizations: ["javascript", "images", "css"]
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile']
+email: max@codehawks.eu
+baseurl: ""
+url: "http://bokobza.me"
+twitter_username: maxbok
+github_username: maxbok
+
+# Build settings
+markdown: kramdown
