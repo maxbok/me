@@ -1,0 +1,32 @@
+# Site settings
+title: Maxime Bokobza
+exclude: ['README.md', 'CNAME']
+email: max@codehawks.eu
+baseurl: ""
+url: "http://bokobza.me"
+twitter_username: maxbok
+github_username: maxbok
+
+# Build settings
+markdown: kramdown
+
+permalink: /:title/
+defaults:
+  -
+    scope:
+      path: _posts/en
+    values:
+      layout: default
+      lang: en
+  -
+    scope:
+      path: _posts/fr
+    values:
+      layout: default
+      lang: fr
+
+t:
+    en:
+        software_engineer: Software Engineer
+    fr:
+        software_engineer: Ingénieur Informatique

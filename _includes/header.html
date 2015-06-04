@@ -1,0 +1,20 @@
+<header class="site-header">
+
+  <div class="wrapper">
+
+    <div class="site-title">{{ site.title }}</div><br style="clear: both" />
+    <div class="site-subtitle">{{ site.t[page.lang].software_engineer }}</div><br style="clear: both" />
+
+    <nav class="site-nav">
+      <div class="site-lang">
+        {% if page.lang == "en" %}
+          <a href="/fr" >Français</a>
+        {% else if page.lang == "fr" %}
+          <a href="/" >English</a>
+        {% endif %}
+      </div>
+    </nav>
+
+  </div>
+
+</header>
