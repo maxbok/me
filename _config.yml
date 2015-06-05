@@ -28,7 +28,7 @@ defaults:
 t:
     en:
         software_engineer: Software Engineer
-        experiences: Experiences
+        experience: Work experience
     fr:
         software_engineer: Ingénieur Informatique
-        experiences: Expériences
+        experience: Expérience professionelle
