@@ -29,6 +29,8 @@ t:
     en:
         software_engineer: Software Engineer
         experience: Work experience
+        education: Education
     fr:
         software_engineer: Ingénieur Informatique
         experience: Expérience professionelle
+        education: Formation
