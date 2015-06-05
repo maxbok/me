@@ -35,7 +35,18 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 
+th {
+    font-weight: inherit;
+    font-size: 20px;
+}
 
+table p {
+    margin: 0;
+}
+
+table td {
+    padding: $spacing-unit / 2 0;
+}
 
 /**
  * Images

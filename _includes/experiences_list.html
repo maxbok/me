@@ -1,0 +1,15 @@
+<th>{{ include.title }}</th>
+
+{% for post in site.categories[include.category] %}
+  {% if post.lang == page.lang %}
+    <tr>
+      <td class="exp-date">{{ post.start_date | date: "%Y" }} - {{ post.end_date | date: "%Y" }}</td>
+      <td>
+        <p class="exp-title">{{ post.title }}</p>
+        <p class="exp-content">{{ post.content }}</p>
+        <p class="exp-description">{{ post.job_description }}</p>
+        <p class="exp-link"><a href="{{ post.link }}">{{ post.link | remove: 'http://' }}</a></p>
+      </td>
+    </tr>
+  {% endif %}
+{% endfor %}

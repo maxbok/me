@@ -1,24 +1,6 @@
 <div class="home">
-  <ul class="post-list">
-    {% for category in site.categories %}
-      {% for posts in category %}
-        {% if forloop.first %}
-          <li><h3>{{ posts | capitalize }}</h3></li>
-          {% continue %}
-        {% endif %}
-
-        {% for post in posts %}
-          {% if post.lang == page.lang %}
-            <li>
-              <span class="post-meta">{{ post.start_date | date: "%Y" }} - {{ post.end_date | date: "%Y" }}</span>
-              <h2><a class="post-link">{{ post.title }}</a></h2>
-              <span>{{ post.content }}</span>
-              <br />
-              <span><a href="{{ post.link }}">{{ post.link | remove: 'http://' }}</a>
-            </li>
-          {% endif %}
-        {% endfor %}
-      {% endfor %}
-    {% endfor %}
-  </ul>
+  <table>
+    {% capture experiences_title %}{{ site.t[page.lang].experiences }}{% endcapture %}
+    {% include experiences_list.html category='experiences' title=experiences_title %}
+  </table>
 </div>

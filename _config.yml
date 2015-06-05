@@ -28,5 +28,7 @@ defaults:
 t:
     en:
         software_engineer: Software Engineer
+        experiences: Experiences
     fr:
         software_engineer: Ingénieur Informatique
+        experiences: Expériences
