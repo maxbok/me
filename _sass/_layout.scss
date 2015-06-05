@@ -12,11 +12,11 @@
 
 .site-title, .site-subtitle {
     float: left;
-    margin: 6px 0;
 }
 
 .site-title {
-    font-size: 32px;
+    font-size: 38px;
+    letter-spacing: -1px;
 
     &,
     &:visited {
@@ -25,7 +25,7 @@
 }
 
 .site-subtitle {
-    font-size: 22px;
+    font-size: 24px;
 }
 
 .site-lang {
