@@ -10,15 +10,15 @@
           <p class="exp-title">{{ post.title }}</p>
         {% endif %}
 
-        {% if post.title %}
+        {% if post.content %}
           <p class="exp-content">{{ post.content }}</p>
         {% endif %}
 
-        {% if post.title %}
+        {% if post.job_description %}
           <p class="exp-description">{{ post.job_description }}</p>
         {% endif %}
 
-        {% if post.title %}
+        {% if post.link %}
           <p class="exp-link"><a href="{{ post.link }}">{{ post.link | remove: 'http://' }}</a></p>
         {% endif %}
 
