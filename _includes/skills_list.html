@@ -1,0 +1,10 @@
+<th colspan=2>{{ include.title }}</th>
+
+{% for post in site.categories[include.category] %}
+  {% if post.lang == page.lang %}
+    <tr>
+      <td class="exp-date">{{ post.title }}</td>
+      <td><p class="exp-content">{{ post.content }}</p></td>
+    </tr>
+  {% endif %}
+{% endfor %}

@@ -5,5 +5,8 @@
 
     {% capture education_title %}{{ site.t[page.lang].education }}{% endcapture %}
     {% include experiences_list.html category='education' title=education_title %}
+
+    {% capture skills_title %}{{ site.t[page.lang].skills }}{% endcapture %}
+    {% include skills_list.html category='skills' title=skills_title %}
   </table>
 </div>

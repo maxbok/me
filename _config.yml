@@ -30,7 +30,9 @@ t:
         software_engineer: Software Engineer
         experience: Work experience
         education: Education
+        skills: Skills
     fr:
         software_engineer: Ingénieur Informatique
         experience: Expérience professionelle
         education: Formation
+        skills: Compétences
