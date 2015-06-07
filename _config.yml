@@ -30,9 +30,11 @@ t:
         software_engineer: Software Engineer
         experience: Work experience
         education: Education
+        side_projects: Side projects
         skills: Skills
     fr:
         software_engineer: Ingénieur Informatique
         experience: Expérience professionelle
         education: Formation
+        side_projects: Projets personnels
         skills: Compétences

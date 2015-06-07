@@ -3,6 +3,9 @@
     {% capture experience_title %}{{ site.t[page.lang].experience }}{% endcapture %}
     {% include experiences_list.html category='experience' title=experience_title %}
 
+    {% capture side_projects_title %}{{ site.t[page.lang].side_projects }}{% endcapture %}
+    {% include experiences_list.html category='side_project' title=side_projects_title %}
+
     {% capture education_title %}{{ site.t[page.lang].education }}{% endcapture %}
     {% include experiences_list.html category='education' title=education_title %}
 
