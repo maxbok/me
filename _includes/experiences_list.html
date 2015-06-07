@@ -1,4 +1,6 @@
-<th colspan=2>{{ include.title }}</th>
+<tr>
+  <th colspan=2>{{ include.title }}</th>
+</tr>
 
 {% for post in site.categories[include.category] %}
   {% if post.lang == page.lang %}
@@ -29,7 +31,14 @@
         {% endif %}
 
         {% if post.link %}
-          <p class="exp-link"><a href="{{ post.link }}">{{ post.link | remove: 'http://' | remove: 'www.' }}</a></p>
+          {% capture link %}
+            {% if post.link_placeholder %}
+              {{ post.link_placeholder }}
+            {% else %}
+              {{ post.link | remove: 'http://' | remove: 'www.' }}
+            {% endif %}
+          {% endcapture %}
+          <p class="exp-link"><a href="{{ post.link }}">{{ link }}</a></p>
         {% endif %}
 
       </td>
