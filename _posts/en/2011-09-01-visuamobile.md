@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Visuamobile"
+title: Visuamobile
 start_date: 2011-09-01
 end_date: 2012-05-23
 category: experience

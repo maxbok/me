@@ -1,5 +1,5 @@
 ---
-title: "Frameworks and tools"
+title: Frameworks and tools
 category: skills
 ---
 Cocoa Touch, Rails, Jekyll, Git
