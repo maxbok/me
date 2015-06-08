@@ -7,4 +7,4 @@ job_description: iOS, Android et Ruby
 link: http://visuamobile.com
 ---
 
-Développement de multiples applications dont <a href="https://itunes.apple.com/fr/app/dictionnaire-illustre-larousse/id438715178?mt=8">Larousse</a>, LeParisien, LesEchos, AllRadio
+Développement de multiples applications dont <a href="https://itunes.apple.com/fr/app/dictionnaire-illustre-larousse/id438715178?mt=8">Larousse</a>, LeParisien, LesEchos, AllRadio
