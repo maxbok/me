@@ -23,6 +23,12 @@ body {
     -webkit-text-size-adjust: 100%;
 }
 
+::selection {
+  background: $selection-color;
+}
+::-moz-selection {
+  background: $selection-color;
+}
 
 
 /**
@@ -104,13 +110,8 @@ a {
     color: $brand-color;
     text-decoration: none;
 
-    &:visited {
-        color: darken($brand-color, 15%);
-    }
-
     &:hover {
-        color: $text-color;
-        text-decoration: underline;
+        color: darken($brand-color, 15%);
     }
 }
 
