@@ -3,5 +3,5 @@ title: "Langues"
 category: skills
 ---
 
-Français langue maternelle<br />
+Français langue maternelle<br />
 Anglais courant
