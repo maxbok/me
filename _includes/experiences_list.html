@@ -14,11 +14,13 @@
           {% else %}
             {{ post.start_date | date: "%Y" }}
           {% endif %}
+        {% else %}
+          {{ post.title | downcase }}
         {% endif %}
       </td>
       <td>
 
-        {% if post.title %}
+        {% if post.title and post.start_date %}
           <p class="exp-title">{{ post.title }}</p>
         {% endif %}
 

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Visuamobile
 start_date: 2011-02-01
 end_date: 2012-05-23
