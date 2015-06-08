@@ -5,12 +5,13 @@
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
+    padding: 20px 0;
 
     // Positioning context for the mobile navigation icon
     position: relative;
 }
 
-.site-title, .site-subtitle {
+.site-header-left {
     float: left;
 }
 
@@ -28,8 +29,12 @@
     font-size: 24px;
 }
 
-.site-lang {
+.site-header-right {
     float: right;
+}
+
+.site-lang {
+    padding: 6px 0;
 }
 
 .site-nav {

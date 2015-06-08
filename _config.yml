@@ -27,12 +27,14 @@ defaults:
 
 t:
     en:
+        years_old: years old
         software_engineer: Software Engineer
         experience: Work experience
         education: Education
         side_projects: Side projects
         skills: Skills
     fr:
+        years_old: ans
         software_engineer: Ingénieur Informatique
         experience: Expérience professionelle
         education: Formation

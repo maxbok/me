@@ -2,10 +2,13 @@
 
   <div class="wrapper">
 
-    <div class="site-title">{{ site.title }}</div><br style="clear: both" />
-    <div class="site-subtitle">{{ site.t[page.lang].software_engineer }}</div><br style="clear: both" />
+    <div class="site-header-left">
+      <div class="site-title">{{ site.title }}</div>
+      <div class="site-subtitle">{{ site.t[page.lang].software_engineer }}</div>
+      <div class="site-details"><span id="age"></span> {{ site.t[page.lang].years_old }} - Paris 14e</div>
+    </div>
 
-    <nav class="site-nav">
+    <div class="site-header-right">
       <div class="site-lang">
         {% if page.lang == "en" %}
           <a href="/fr" >Français</a>
@@ -13,7 +16,7 @@
           <a href="/" >English</a>
         {% endif %}
       </div>
-    </nav>
+    </div>
 
   </div>
 
