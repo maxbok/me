@@ -4,5 +4,4 @@ category: skills
 ---
 
 Français langue maternelle<br />
-Anglais courant<br />
-Espagnol notions
+Anglais courant
