@@ -24,10 +24,12 @@ body {
 }
 
 ::selection {
-  background: $selection-color;
+    color: $background-color;
+    background: $selection-color;
 }
 ::-moz-selection {
-  background: $selection-color;
+    color: $background-color;
+    background: $selection-color;
 }
 
 
@@ -111,7 +113,7 @@ a {
     text-decoration: none;
 
     &:hover {
-        color: darken($brand-color, 15%);
+        color: darken($brand-color, 20%);
     }
 }
 
