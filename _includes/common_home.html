@@ -11,5 +11,8 @@
 
     {% capture skills_title %}{{ site.t[page.lang].skills }}{% endcapture %}
     {% include skills_list.html category='skills' title=skills_title %}
+
+    {% capture hobbies_title %}{{ site.t[page.lang].hobbies }}{% endcapture %}
+    {% include skills_list.html category='hobbies' title=hobbies_title %}
   </table>
 </div>

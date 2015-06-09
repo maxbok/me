@@ -33,6 +33,7 @@ t:
         education: Education
         side_projects: Side projects
         skills: Skills
+        hobbies: Hobbies
     fr:
         years_old: ans
         software_engineer: Ingénieur Informatique
@@ -40,3 +41,4 @@ t:
         education: Formation
         side_projects: Projets personnels
         skills: Compétences
+        hobbies: Centres d'intérêt
