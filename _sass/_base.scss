@@ -53,8 +53,12 @@ table p {
     margin: 0;
 }
 
+table th {
+    padding-top: $spacing-unit;
+}
+
 table td {
-    padding: $spacing-unit / 2 0;
+    padding: $spacing-unit / 3 0;
 }
 
 /**
@@ -169,8 +173,8 @@ pre {
  * Wrapper
  */
 .wrapper {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 4));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 4));
     margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit;
