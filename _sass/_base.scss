@@ -19,7 +19,6 @@ body {
     line-height: $base-line-height;
     font-weight: 300;
     color: $text-color;
-    background-color: $background-color;
     -webkit-text-size-adjust: 100%;
 }
 
@@ -54,11 +53,11 @@ table p {
 }
 
 table th {
-    padding-top: $spacing-unit;
+    padding-top: $spacing-unit / 2;
 }
 
 table td {
-    padding: $spacing-unit / 3 0;
+    padding: $spacing-unit / 6 0;
 }
 
 /**

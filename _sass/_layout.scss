@@ -2,10 +2,9 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
-    padding: 20px 0;
+    padding: 0 0 20px 0;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -16,8 +15,10 @@
 }
 
 .site-title {
-    font-size: 38px;
-    letter-spacing: -1px;
+    font-size: 42px;
+    font-family: "Avenir Next Condensed";
+    margin-top: -10px;
+    margin-bottom: -10px;
 }
 
 .site-subtitle {

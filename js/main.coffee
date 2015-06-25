@@ -2,7 +2,7 @@
 ---
 
 window.onload = () ->
-    document.getElementById("age").innerHTML = age()
+    #document.getElementById("age").innerHTML = age()
     unless is_avenir_available()
         for el in document.getElementsByClassName "exp-title"
             el.style.fontWeight = "600"

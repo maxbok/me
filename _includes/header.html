@@ -5,7 +5,7 @@
     <div class="site-header-left">
       <div class="site-title">{{ site.title }}</div>
       <div class="site-subtitle">{{ site.t[page.lang].software_engineer }}</div>
-      <div class="site-details"><span id="age"></span> {{ site.t[page.lang].years_old }} - Paris, France</div>
+      <div class="site-details">26/02/1988 - Paris, France</div>
       <div class="site-details">{{ site.email }}</div>
       <div class="site-details">
         <a href="https://github.com/{{ site.github_username }}">
@@ -20,15 +20,6 @@
       </div>
     </div>
 
-    <div class="site-header-right">
-      <div class="site-lang">
-        {% if page.lang == "en" %}
-          <a href="/fr" >Français</a>
-        {% else if page.lang == "fr" %}
-          <a href="/" >English</a>
-        {% endif %}
-      </div>
-    </div>
 
   </div>
 
