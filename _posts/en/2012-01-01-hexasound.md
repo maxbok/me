@@ -8,4 +8,4 @@ job_description: iOS
 ---
 
 Conception and implementation of HexASound, a brand new keyboard layout especially crafted for multi-touch screens<br />
-Sound generation and effects with CoreAudio
+Sound generation and effects with CoreAudio in C

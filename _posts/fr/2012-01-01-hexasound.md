@@ -8,4 +8,4 @@ job_description: iOS
 ---
 
 Conception et implémentation de HexASound, un tout nouveau clavier optimisé pour les écrans tactiles<br />
-Utilisation de CoreAudio pour les effets et la génération du son
+Utilisation de CoreAudio pour les effets et la génération du son en C
