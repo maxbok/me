@@ -4,7 +4,22 @@
   {% if post.lang == page.lang %}
     <tr>
       <td class="skills-title">{{ post.title }}</td>
-      <td><p class="skills-content">{{ post.content }}</p></td>
+      <td>
+        <p class="skills-content">{{ post.content }}</p>
+        {% if post.links %}
+          <p class="exp-link">
+            {% for link in post.links %}
+              {% capture url %}
+                {{ link.url }}
+              {% endcapture %}
+              {% capture title %}
+                {{ link.title }}
+              {% endcapture %}
+              <a href="{{ url }}">{{ title }}</a><br />
+            {% endfor %}
+          </p>
+        {% endif %}
+      </td>
     </tr>
   {% endif %}
 {% endfor %}
