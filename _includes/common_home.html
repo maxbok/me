@@ -1,18 +1,18 @@
 <div class="home">
   <table>
-    {% capture experience_title %}{{ site.t[page.lang].experience }}{% endcapture %}
+    {% capture experience_title %}{{ site.t.experience }}{% endcapture %}
     {% include experiences_list.html category='experience' title=experience_title %}
 
-    {% capture side_projects_title %}{{ site.t[page.lang].side_projects }}{% endcapture %}
+    {% capture side_projects_title %}{{ site.t.side_projects }}{% endcapture %}
     {% include experiences_list.html category='side_project' title=side_projects_title %}
 
-    {% capture education_title %}{{ site.t[page.lang].education }}{% endcapture %}
+    {% capture education_title %}{{ site.t.education }}{% endcapture %}
     {% include experiences_list.html category='education' title=education_title %}
 
-    {% capture skills_title %}{{ site.t[page.lang].skills }}{% endcapture %}
+    {% capture skills_title %}{{ site.t.skills }}{% endcapture %}
     {% include skills_list.html category='skills' title=skills_title %}
 
-    {% capture hobbies_title %}{{ site.t[page.lang].hobbies }}{% endcapture %}
+    {% capture hobbies_title %}{{ site.t.hobbies }}{% endcapture %}
     {% include skills_list.html category='hobbies' title=hobbies_title %}
   </table>
 </div>

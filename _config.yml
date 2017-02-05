@@ -26,19 +26,10 @@ defaults:
       lang: fr
 
 t:
-    en:
-        years_old: years old
-        software_engineer: Software Engineer
-        experience: Work experience
-        education: Education
-        side_projects: Side projects
-        skills: Skills
-        hobbies: Hobbies
-    fr:
-        years_old: ans
-        software_engineer: Ingénieur Informatique
-        experience: Expérience professionelle
-        education: Formation
-        side_projects: Projets personnels
-        skills: Compétences
-        hobbies: Centres d'intérêt
+  years_old: years old
+  software_engineer: Software Engineer
+  experience: Work experience
+  education: Education
+  side_projects: Side projects
+  skills: Skills
+  hobbies: Hobbies
