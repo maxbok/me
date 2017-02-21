@@ -4,8 +4,8 @@ exclude: ['README.md', 'CNAME']
 email: max@codehawks.eu
 baseurl: ""
 url: "http://bokobza.me"
-twitter_username: maxbok
-github_username: maxbok
+github: "https://github.com/maxbok"
+linkedin: "https://www.linkedin.com/in/maximebokobza/"
 
 # Build settings
 markdown: kramdown
