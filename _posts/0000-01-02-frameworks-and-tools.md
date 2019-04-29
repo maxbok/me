@@ -2,4 +2,4 @@
 title: Frameworks and tools
 category: skills
 ---
-Cocoa Touch, Android, Node.js, WebRTC, Rails, Git, Vim
+Cocoa Touch, Fastlane, Carthage, CocoaPods, CoreData, Realm, CoreAnimation, CoreText, CoreBluetooth, Alamofire, Git, Vim, WebRTC

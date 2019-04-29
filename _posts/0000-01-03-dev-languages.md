@@ -2,4 +2,4 @@
 title: "Languages"
 category: skills
 ---
-Objective-C, Swift, C, Ruby, Java, JavaScript
+Swift, Objective-C, C, Ruby, Java, JavaScript
