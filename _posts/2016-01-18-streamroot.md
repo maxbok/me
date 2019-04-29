@@ -6,8 +6,8 @@ category: experience
 job_description: "
 JavaScript: ES5, ES6, WebRTC, Grunt, Yarn, CircleCI<br /> 
 iOS: Fastlane, Carthage, Alamofire, WebRTC, Xcode Server (CI/CD)<br />
-Android: OkHttp, WebRTC, CircleCI"
-Ruby: Scripts for CI/CD
+Android: OkHttp, WebRTC, CircleCI<br />
+Ruby: Scripts for CI/CD"
 link: http://streamroot.io
 ---
 
