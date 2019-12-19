@@ -2,6 +2,7 @@
 title: Client lead engineer at Streamroot
 start_date: 2016-01-18
 end_date: 2017-06-30
+contract_type: CDI
 category: experience
 job_description: "
 JavaScript: ES5, ES6, WebRTC, Grunt, Yarn, CircleCI<br /> 
