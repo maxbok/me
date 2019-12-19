@@ -6,15 +6,17 @@
   <tr>
     <td class="exp-date">
       {% if post.start_date %}
+        {{ post.start_date | date: "%Y" }}
         {% if post.end_date %}
-          {{ post.start_date | date: "%Y" }} - {{ post.end_date | date: "%Y" }}
-        {% else if post.duration %}
-          {{ post.start_date | date: "%Y" }}<br />{{ post.duration }}
-        {% else %}
-          {{ post.start_date | date: "%Y" }}
+           - {{ post.end_date | date: "%Y" }}
+        {% elsif post.duration %}
+          <br />{{ post.duration }}
         {% endif %}
       {% else %}
         {{ post.title }}
+      {% endif %}
+      {% if post.contract_type %}
+        <br />{{ post.contract_type }}
       {% endif %}
     </td>
     <td>
