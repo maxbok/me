@@ -6,11 +6,11 @@
     {% capture side_projects_title %}{{ site.t.side_projects }}{% endcapture %}
     {% include experiences_list.html category='side_project' title=side_projects_title %}
 
-    {% capture education_title %}{{ site.t.education }}{% endcapture %}
-    {% include experiences_list.html category='education' title=education_title %}
-
     {% capture skills_title %}{{ site.t.skills }}{% endcapture %}
     {% include skills_list.html category='skills' title=skills_title %}
+
+    {% capture education_title %}{{ site.t.education }}{% endcapture %}
+    {% include experiences_list.html category='education' title=education_title %}
 
     {% capture hobbies_title %}{{ site.t.hobbies }}{% endcapture %}
     {% include skills_list.html category='hobbies' title=hobbies_title %}

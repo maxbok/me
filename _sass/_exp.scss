@@ -8,6 +8,7 @@
 .exp-title {
     font-size: $smaller-font-size;
     font-weight: 500;
+    padding-bottom: $section-padding-top;
 }
 
 .exp-content, .skills-content {
@@ -17,8 +18,10 @@
     color: $grey-color-dark;
     font-style: italic;
     font-size: $smaller-font-size;
+    padding-top: $section-padding-top;
 }
 
 .exp-link {
     font-size: $small-font-size;
+    padding-top: $section-padding-top;
 }

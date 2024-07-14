@@ -4,4 +4,4 @@ start_date: 2013-01-21
 category: side_project
 ---
 
-CoreAudio presentation
+Core Audio presentation

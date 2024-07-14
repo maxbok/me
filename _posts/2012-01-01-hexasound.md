@@ -2,8 +2,8 @@
 title: HexASound
 start_date: 2012-01-01
 category: side_project
-job_description: iOS
+job_description: "iOS: Core Audio"
 ---
 
-Conception and implementation of HexASound, a brand new keyboard layout especially crafted for multi-touch screens<br />
-Sound generation and effects with CoreAudio in C
+<p>Conception and implementation of HexASound, a brand new keyboard layout especially crafted for multi-touch screens</p>
+<p>Sound generation and effects with Core Audio in C</p>
