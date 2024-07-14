@@ -2,4 +2,5 @@
 title: Frameworks and tools
 category: skills
 ---
-Cocoa Touch, Fastlane, Carthage, CocoaPods, CoreData, Realm, CoreAnimation, CoreText, CoreBluetooth, AVKit, Alamofire, Git, Vim, WebRTC
+
+SwiftUI, Combine, UIKit, XCTest, XCUITest, Fastlane, Carthage, CocoaPods, Core Data, Realm, Core Animation, Core Text, Core Bluetooth, AVKit, Alamofire, Git, Vim, WebRTC

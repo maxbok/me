@@ -6,6 +6,9 @@
   <tr>
     <td class="exp-date">
       {% if post.start_date %}
+        {% if post.contract_type != nil and post.end_date == nil and post.duration == nil %}
+          Since
+        {% endif %}
         {{ post.start_date | date: "%Y" }}
         {% if post.end_date %}
            - {{ post.end_date | date: "%Y" }}

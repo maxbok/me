@@ -1,7 +1,7 @@
 ---
-title: "Languages"
+title: Languages
 category: skills
 ---
 
-Native french<br />
-Fluent english
+<p>Native french</p>
+<p>Fluent english</p>
