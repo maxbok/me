@@ -6,8 +6,8 @@ contract_type: CDI
 category: experience
 job_description: "
 JavaScript: ES5, ES6, WebRTC, Grunt, Yarn, CircleCI<br /> 
-iOS: Fastlane, Carthage, Alamofire, WebRTC, Xcode Server (CI/CD)<br />
-Android: OkHttp, WebRTC, CircleCI<br />
+iOS: Swift, XCTest, Fastlane, Carthage, Alamofire, WebRTC, Xcode Server (CI/CD)<br />
+Android: Java, OkHttp, WebRTC, CircleCI<br />
 Ruby: Scripts for CI/CD"
 link: http://streamroot.io
 ---
@@ -19,4 +19,3 @@ link: http://streamroot.io
 <p>Web integrations, iOS and Android SDKs</p>
 
 <p>Complex CI and CD implementation. For instance, a modification in the Core application (JavaScript) would trigger a cascade of builds including iOS and Android SDKs.</p>
-
