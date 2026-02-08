@@ -1,6 +1,6 @@
 # Site settings
 title: Maxime Bokobza
-exclude: ['README.md', 'CNAME']
+exclude: ["README.md", "CNAME"]
 email: max@codehawks.eu
 baseurl: ""
 url: "http://bokobza.me"
@@ -12,14 +12,12 @@ markdown: kramdown
 
 permalink: /:title/
 defaults:
-  -
-    scope:
+  - scope:
       path: _posts/en
     values:
       layout: default
       lang: en
-  -
-    scope:
+  - scope:
       path: _posts/fr
     values:
       layout: default
@@ -30,6 +28,5 @@ t:
   software_engineer: Software Engineer
   experience: Work experience
   education: Education
-  skills: Skills
+  skills: Technical skills
   side_projects: Side projects
-  hobbies: Hobbies

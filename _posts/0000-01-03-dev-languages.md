@@ -1,5 +1,5 @@
 ---
-title: "Languages"
+title: "Programming languages"
 category: skills
 ---
 
